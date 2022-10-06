@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/main.css">
+	<title></title>
+</head>
+<body>
+	<nav>
+        <h1 class="nav">Bienvenidos</h1>
+    </nav>
+    <h1>CRUD API REST FETCH</h1>
+    <section class="crud">
+        <article>
+            <h2 class="crud-title">Agregar Usuario</h2>
+            <form class="crud-form">
+                <input class="text-box" type="text" name="name" placeholder="Name" required>
+                <br>
+                <input class="text-box" type="text" name="age" placeholder="Age" required>
+                <br>
+				<input class="text-box" type="text" name="email" placeholder="Email" required>
+                <br>
+                <input type="submit" class="enviar" value="Enviar">
+                <input type="hidden" name="id">
+            </form>
+        </article>
+        <article>
+            <h2>Ver Usuarios</h2>
+            <table class="crud-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+						<th>Email</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </article>
+    </section>
+    <template id="crud-template">
+        <tr>
+            <td class="name"></td>
+            <td class="age"></td>
+			<td class="email"></td>
+            <td>
+                <button class="edit">Editar</button>
+                <button class="delete">Eliminar</button>
+            </td>
+        </tr>
+    </template>
+    <script src='js/app.js'></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url("../img/img.webp");
+    background-color: #cccccc;
+
+   }
+
+   .crud{
+    border-radius: 5px;
+    border-color: #333;
+    margin: 5px;
+    background-color: aliceblue;
+    opacity: 0.8;
+    width: 30%;
+    height: auto;
+   }
+
+   h1{
+    color: chartreuse;
+    text-shadow: 2px 2px #c70101;
+   }
+   h1:hover{
+    color: greenyellow;
+   }
+   h2{
+    
+    color: #333;
+    text-shadow: 2px 2px chartreuse;
+   }
+.text-box{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    border-color: chartreuse;
+    border-width: 2px;
+    height: 25px;
+    width: 300px;
+    background-color: blanchedalmond;
+    padding: 10px;
+}
+.enviar{
+    height: 50px;
+    width: 100px;
+    font-size: medium;
+    background-color: darkcyan;
+    color: aliceblue;
+    border-color: white;
+    border-radius: 10px;
+}
+.enviar:hover{
+    background-color: aliceblue;
+    color: darkcyan;
+}
+
+
+.edit{
+    background-color: green;
+    color: aliceblue;
+    border-color: white;
+    border-radius: 10px;
+}
+.edit:hover{
+    background-color: aliceblue;
+    color: green;
+}
+
+.delete{
+    background-color: #c70101;
+    color: aliceblue;
+    border-color: white;
+    border-radius: 10px;
+}
+.delete:hover{
+    background-color: aliceblue;
+    color: #c70101;
+}
+nav{
+    background-color: #333;
+    height: 50px;
+    width: 100%;
+    opacity: 0.8;
+}
+.nav{
+    color: aliceblue;
+}
